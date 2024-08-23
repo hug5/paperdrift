@@ -12,7 +12,7 @@ def start():
 
     def printImg():
         # return "<img src=\"static/favicon.ico\" width=20px height=20px>"
-        return "<img src=\"train1.png\" width=20px height=20px>"
+        return "<img src=\"static/train1.png\" width=20px height=20px>"
 
 
 
