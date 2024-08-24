@@ -14,7 +14,7 @@ def start():
         return "<b>paperdrift 5.1</b>"
 
     def printImg():
-        return "<img src=\"static/favicon.ico\" width=20px height=20px>"
+        return "<img src=\"static/favicon.ico\" width=20px height=20px style=\"position:relative; top:4px; margin-right:5px;\">"
         #return "<img src=\"static/train1.png\" width=20px height=20px>"
 
 
@@ -65,7 +65,7 @@ jug = start()
   # If have above, then can do start:start or :
   # $ flask -A start:jug run --debug
 
-jug.run() # Saw this; not sure; Works with or without;
+# jug.run() # Saw this; not sure; Works with or without;
 
 
 
