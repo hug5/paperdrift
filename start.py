@@ -7,12 +7,15 @@ def start():
     # jug.config['SERVER_NAME'] = '127.0.0.1:5000'
       # If not use above, then can't reference subdomains below; will error;
 
+    # jug.debug = True  # Saw this somewhere; not sure about it;
+
+
     def printHtml():
         return "<b>paperdrift 5.1</b>"
 
     def printImg():
-        # return "<img src=\"static/favicon.ico\" width=20px height=20px>"
-        return "<img src=\"static/train1.png\" width=20px height=20px>"
+        return "<img src=\"static/favicon.ico\" width=20px height=20px>"
+        #return "<img src=\"static/train1.png\" width=20px height=20px>"
 
 
 
@@ -62,6 +65,7 @@ jug = start()
   # If have above, then can do start:start or :
   # $ flask -A start:jug run --debug
 
+jug.run() # Saw this; not sure; Works with or without;
 
 
 
